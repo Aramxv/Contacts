@@ -4,7 +4,21 @@
 
 <section class="main-container">
     <div class="main-wrapper">
-        <h3>Home</h3>
+        
+        <?php 
+            /* 
+                Authorized Section
+                This side is for authorized user only 
+            */
+            if (isset($_SESSION['u_id'])) {
+                echo "You are now logged-in";
+
+            } else {
+                echo '<h4>Contact your friends wherever you are!</h4>
+                <img class="illustrator" src="assets/searchcontact.svg" alt="illustrator">';
+            }
+        ?>
+
     </div>
 </section>
 

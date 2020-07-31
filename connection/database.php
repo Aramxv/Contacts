@@ -22,6 +22,6 @@
     }
     else{
         // Echo a Test Connection String
-        //echo 'YEEEES! Connected';
+        echo 'YEEEES! Connected';
     }
 ?>

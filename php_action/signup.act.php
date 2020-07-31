@@ -4,7 +4,7 @@
         It's going to check the submit button that's 
         actually being clicked and test
     */
-    if (isset($_POST['submit'])) {
+    if (isset($_POST['signup-submit'])) {
 
         include_once '../connection/database.php';
 
