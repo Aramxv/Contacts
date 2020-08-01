@@ -98,7 +98,10 @@ input, select {
 }
 
 
-/* MASTER STYLE DOCUMENT */ 
+/* ========================= */ 
+/* | MASTER STYLE DOCUMENT | */ 
+/* ========================= */ 
+
 body{
 background-color: rgb(255, 255, 255);
 }
@@ -160,7 +163,7 @@ header .nav-login form input{
 
 header .nav-login form button{
     float: left;
-    width: 60px;
+    width: 80px;
     height: 30px;
     margin-right: 10px;
     border: none;
@@ -199,6 +202,7 @@ header .nav-login a{
 }
 
 /* SIGNUP STYLE SECTION */
+
 .main-container .main-wrapper h3{
     color:#0073FF;
 }
@@ -214,22 +218,24 @@ header .nav-login a{
     height: 40px;
     padding: 0px 5%;
     margin-bottom: 4px;
+    border: none;
     border-radius: 5px;
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 40px;
+    background-color: #ccc;
 }
 
 .signup-form button{
     display: block;
     margin:0 auto;
-    width: 40%;
-    height: 40px;
+    width: 50%;
+    height: 50px;
     border: none;
     background-color: #0073FF;;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     cursor: pointer;
 }
@@ -243,3 +249,59 @@ header .nav-login a{
     width: 700px;
     height: 400px;
 }
+
+/* AUTHORIZED STYLE SECTION */
+
+#contact-list .owl-carousel .item .contact a{
+    overflow: hidden;
+}
+
+#contact-list .owl-carousel .item .contact img{
+    transition: transform 0.5s ease;
+}
+
+#contact-list .owl-carousel .item .contact img:hover{
+    transform: scale(1.1);
+}
+
+#contact-list .owl-carousel .owl-nav button.owl-prev{
+    left:0;
+}
+
+#contact-list .owl-carousel .owl-nav button.owl-prev span,
+#contact-list .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#contact-list .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#contact-list .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#contact-list .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+#contact-head{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#contact-name{
+    font-size:12px;
+}
+
+#contact-number{
+    font-size:12px;
+}
+
+#contact-mail{
+    font-size:12px;
+}
+
+#contact-address{
+    font-size:12px;
+}
+

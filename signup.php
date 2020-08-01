@@ -10,6 +10,7 @@
             <input type="text" name="email" placeholder="Email Address">
             <input type="text" name="username" placeholder="Username">
             <input type="password" name="password" placeholder="Password">
+            <hr class="my-1">
             <button type="submit" name="signup-submit">Sign up</button>
         </form>
     </div>

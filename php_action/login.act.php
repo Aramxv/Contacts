@@ -51,7 +51,7 @@
                         /* 
                             Log in the user 
                         */
-                        $_SESSION['u_id'] = $row['_id'];
+                        $_SESSION['u_id'] = $row['id'];
                         $_SESSION['u_name'] = $row['name'];
                         $_SESSION['u_email'] = $row['email'];
                         $_SESSION['u_username'] = $row['username'];

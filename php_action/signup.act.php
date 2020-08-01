@@ -6,7 +6,7 @@
     */
     if (isset($_POST['signup-submit'])) {
 
-        include_once '../connection/database.php';
+        include_once 'connection/database.php';
 
         /* 
             Escapes the special characters in a  
@@ -83,7 +83,6 @@
 
                             header("location: ../signup.php?signup=success");
                             exit();
-                            
                         }
 
                     }

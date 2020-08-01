@@ -11,8 +11,7 @@
                 This side is for authorized user only 
             */
             if (isset($_SESSION['u_id'])) {
-                echo "You are now logged-in";
-
+                include 'includes/__authorized.php';
             } else {
                 echo '<h4>Contact your friends wherever you are!</h4>
                 <img class="illustrator" src="assets/searchcontact.svg" alt="illustrator">';
